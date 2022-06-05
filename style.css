@@ -177,13 +177,18 @@ body {
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+  gap: 5px;
 }
 
 .gallery h2 {
   grid-column-start: 1;
   grid-column-end: -1;
   text-align: center;
+}
+
+.gallery img {
+  height: 200px;
+  width: 200px;
 }
 
 /* Responsive Breakpoints */
